@@ -22,6 +22,7 @@ ul {
   max-width: 600px;
   display: block;
   margin: 30px auto;
+  margin-bottom: 0;
   padding: 30px;
   background: radial-gradient(
     circle at 10% 20%,
@@ -74,4 +75,8 @@ ul {
 }
 .temperature-forecast {
   font-size: 13px;
+}
+.footer {
+  font-size: small;
+  margin: 0 168px;
 }
