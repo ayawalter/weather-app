@@ -1,0 +1,77 @@
+h1 {
+  font-size: 30px;
+}
+button {
+  background: #fdffcd;
+  border: solid 1px grey;
+  border-radius: 3px;
+  line-height: 25px;
+  padding: 1px 6px;
+  position: relative;
+  right: 50px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.weatherapp {
+  font-family: "Comfortaa", cursive;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 10%);
+  max-width: 600px;
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(166, 226, 229) 0%,
+    rgb(198, 232, 221) 100.2%
+  );
+}
+.seach-tab {
+  width: 50%;
+}
+.weather-icon-today,
+.weather-icon-forecast {
+  opacity: 0.5;
+}
+.weather-today {
+  margin: 40px 0;
+}
+.weather-icon-today {
+  font-size: 100px;
+}
+.current-temperature {
+  font-size: 40px;
+}
+.celcius,
+.fahrenheit {
+  text-decoration: none;
+}
+.fahrenheit {
+  border-left: solid 0.5px grey;
+  padding-left: 5px;
+  font-size: 20px;
+  position: relative;
+  top: -16px;
+  right: 5px;
+}
+.weather-detail {
+  font-size: 13px;
+}
+.weekly-weather {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.week {
+  padding: 10px;
+}
+.weather-icon-forecast {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.temperature-forecast {
+  font-size: 13px;
+}
